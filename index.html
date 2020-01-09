@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card-Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4">
+                <button type="button" class="btn btn-warning btn-lg">Reset</button>
+        </div>
+        <div class="col-md-4" >
+                <button type="button" class="btn btn-primary btn-lg" id="start" onclick="action()">Start</button>
+        </div>
+        <div class="col-md-4">
+                <button  type="button" class="btn btn-primary btn-lg" >Score</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="col-md-3" onclick="check()">
+                <div class="image" id="num1">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front1">
+                                </div>
+                                <div class="flip-box-back" id="back1">
+                                <img src="pic3.jpg" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check2()">
+                <div class="image" id="num2">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front2">
+                                </div>
+                                <div class="flip-box-back" id="back2">
+                                <img src="pic2.jpg" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check3()">
+                <div class="image" id="num3">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front3">
+                                </div>
+                                <div class="flip-box-back" id="back3">
+                                <img src="pic1.jpg" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check4()">
+                <div class="image" id="num4">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front4">
+                                </div>
+                                <div class="flip-box-back" id="back4">
+                                <img src="pic4.png" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check5()">
+                <div class="image" id="num5">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front5">
+                                </div>
+                                <div class="flip-box-back" id="back5">
+                                <img src="pic3.jpg" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check6()">
+                <div class="image" id="num6">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front6">
+                                </div>
+                                <div class="flip-box-back" id="back6">
+                                <img src="pic5.png" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+
+        <div class="col-md-3" onclick="check7()">
+                <div class="image" id="num7">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front7">
+                                </div>
+                                <div class="flip-box-back" id="back7">
+                                <img src="pic4.png" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check8()">
+                <div class="image" id="num8">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front8">
+                                </div>
+                                <div class="flip-box-back" id="back8">
+                                <img src="pic2.jpg" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check9()">
+                <div class="image" id="num9">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front9">
+                                </div>
+                                <div class="flip-box-back" id="back9">
+                                <img src="pic5.png" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+        <div class="col-md-3" onclick="check10()">
+                <div class="image" id="num10">
+                        <div class="flip-box-inner">
+                                <div class="flip-box-front" id="front10">
+                                </div>
+                                <div class="flip-box-back" id="back10">
+                                <img src="pic1.jpg" alt="Paris" style="width:100%;height:100%">
+                                </div>
+                              </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
